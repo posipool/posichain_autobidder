@@ -9,7 +9,7 @@ import simplejson
 from simplejson.errors import JSONDecodeError
 
 
-JSONRPC_ENDPOINT = "https://api.s0.t.hmny.io"
+JSONRPC_ENDPOINT = "https://api.s0.t.posichain.org"
 
 
 class HarmonyClientError(Exception):

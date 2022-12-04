@@ -7,7 +7,7 @@ from enums import OneUnit
 from simplejson.errors import JSONDecodeError
 from retry import retry
 
-JSONRPC_ENDPOINT = "https://rpc.s0.t.hmny.io"
+JSONRPC_ENDPOINT = "https://api.s0.t.posichain.org"
 
 
 def main(main_args):

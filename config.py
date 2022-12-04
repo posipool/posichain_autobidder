@@ -2,7 +2,7 @@ import os
 from bls_keys import BLS_KEYS
 
 HOME = os.environ.get('HOME') or "."
-NODE_API_URL = "https://api.s0.t.hmny.io"
+NODE_API_URL = "https://api.s0.t.posichain.org"
 # Set to False to query your own Node (Shard 0 is required)
 USE_REMOTE_NODE = True
 
