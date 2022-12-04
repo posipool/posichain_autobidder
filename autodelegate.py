@@ -19,8 +19,8 @@ def usage():
 def main(main_args):
     remaining_blocks = epoch_logic.get_remaining_blocks_for_current_epoch()
     now_timestamp = time.time()
-    timestamp_file_path = f"{os.environ['HOME']}/harmony/.autodelegate_ts"
-    script_path = f"{os.environ['HOME']}/harmony/scripts/autodelegate"
+    timestamp_file_path = f"{os.environ['HOME']}/psc/.autodelegate_ts"
+    script_path = f"{os.environ['HOME']}/psc/scripts/autodelegate"
     try:
         timestamp_file = open(timestamp_file_path, "r")
         timestamp_since_autodelegate = float(timestamp_file.read())

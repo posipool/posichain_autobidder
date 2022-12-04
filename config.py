@@ -14,16 +14,16 @@ VSTATS_TOKEN=""
 VSTATS_ALERT_REMOVE_KEY = False # Set to false if you do not want remove key alerts
 VSTATS_ALERT_OUT_OF_ELECTION = True # Set to false if you do not want out of election alerts
 
-# Path to harmony CLI
-HMY_PATH = "{}/harmony/hmy".format(HOME)
+# Path to psc CLI
+PSC_PATH = "{}/psc/psc".format(HOME)
 
 # Path to passphrase file
-PASSPHRASE_PATH = "{}/harmony/passphrase.txt".format(HOME)
+PASSPHRASE_PATH = "{}/psc/passphrase.txt".format(HOME)
 
 # Place all your bls .key and .pass files across ALL nodes in the directory below
-# This is usually a superset of the keys in the .hmy/blskeys path which contains the keys
+# This is usually a superset of the keys in the .psc/blskeys path which contains the keys
 # for running a specific node
-BLS_ALL_KEYS_PATH = "{}/harmony/.hmy/allkeys".format(HOME)
+BLS_ALL_KEYS_PATH = "{}/psc/.psc/allkeys".format(HOME)
 
 # The slot to target
 TARGET_SLOT = 800
@@ -33,7 +33,7 @@ TARGET_SLOT = 800
 MAX_VALIDATORS_PAGES = 10
 
 # Path to base web page html contents
-BASE_HTML_PATH = "{}/harmony/robovalidator.html".format(HOME)
+BASE_HTML_PATH = "{}/psc/robovalidator.html".format(HOME)
 
 BID_GAS_PRICE = 105
 
